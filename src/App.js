@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner";
+import Member from "./components/Member";
+import Navbar from "./components/Navbar";
+import Promo from "./components/Promo";
+import SignatureDish from "./components/SignatureDish";
+import Location from "./components/Location";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-[1440px] bg-[#fafafa] h-max min-w-[375px]">
+        <Navbar />
+        <Banner />
+        <SignatureDish />
+        <Promo />
+        <Member />
+        <Location />
+        <Footer />
     </div>
   );
 }
