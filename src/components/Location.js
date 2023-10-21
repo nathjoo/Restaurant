@@ -1,5 +1,6 @@
-import React from "react";
-import Map from "../assets/Map.png";
+import React from 'react';
+import Map from '../assets/Map.png';
+import Chicken from '../assets/Chicken.png';
 
 const Location = () => {
   return (
@@ -7,7 +8,7 @@ const Location = () => {
       <h1 className="text-[24px] medium:text-[36px] font-bold mb-[24px] medium:mb-[38px]">
         Where To Find Us
       </h1>
-      <div className="w-full mx-auto bg-white shadow-lg medium:grid grid-cols-3 gap-0 rounded-xl">
+      <div className="w-full mx-auto bg-white shadow-lg medium:grid grid-cols-3 gap-0 rounded-xl z-10">
         <div className="medium:flex flex-col p-4 max-medium:pb-2" id="alamat">
           <h3 className="text-[18px] medium:text-[20px] big:text-[24px] font-semibold mb-[24px]">
             Address
@@ -60,6 +61,9 @@ const Location = () => {
           />
         </div>
       </div>
+      {/* <div className="absolute w-[300px] h-[400px] z-0 right-[-30px] top-[3050px] overflow-hidden">
+        <img src={Chicken}></img>
+      </div> */}
     </div>
   );
 };

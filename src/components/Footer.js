@@ -1,6 +1,7 @@
-import React from "react";
-import logo from "../assets/Tasty Good.png";
-import { faInstagram } from "react-icons/fa";
+import React from 'react';
+import logo from '../assets/Tasty Good.png';
+import { faInstagram } from 'react-icons/fa';
+import Burger from '../assets/Burger.png';
 
 const Footer = () => {
   return (
@@ -53,6 +54,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* <div className="absolute w-[542px] h-[426px] z-0 right-[-70px] top-[3900px] overflow-clip">
+        <img src={Burger}></img>
+      </div> */}
     </div>
   );
 };

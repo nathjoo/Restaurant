@@ -1,9 +1,10 @@
-import React from "react";
-import img1 from "../assets/img1.jpeg";
-import img2 from "../assets/img2.jpeg";
-import img3 from "../assets/img3.jpeg";
-import img4 from "../assets/img4.jpeg";
-import img5 from "../assets/img5.jpeg";
+import React from 'react';
+import img1 from '../assets/img1.jpeg';
+import img2 from '../assets/img2.jpeg';
+import img3 from '../assets/img3.jpeg';
+import img4 from '../assets/img4.jpeg';
+import img5 from '../assets/img5.jpeg';
+import Pizza from '../assets/Pizza.png';
 
 const Promo = () => {
   return (
@@ -110,6 +111,9 @@ const Promo = () => {
           </div>
         </div>
       </div>
+      {/* <div className="hidden big:block absolute w-[600px] h-[700px] z-0 right-[-140px] top-[1900px] overflow-clip">
+        <img src={Pizza}></img>
+      </div> */}
     </div>
   );
 };

@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
+import Cheese from '../assets/Cheese.png';
 
 const boxStyle =
-  "flex flex-col justify-between px-[24px] py-[32px] shadow-lg bg-white w-full rounded-xl min-h-[495px] items-center mb-[16px] big:mb-0";
+  'flex flex-col justify-between px-[24px] py-[32px] shadow-lg bg-white w-full rounded-xl min-h-[495px] items-center mb-[16px] big:mb-0';
 
 const Member = () => {
   return (
@@ -9,7 +10,7 @@ const Member = () => {
       <h1 className="text-[24px] medium:text-[28px] big:text-[36px] font-bold px-[16px]">
         Exclusive Member Perks: Join Now!
       </h1>
-      <div className="big:grid grid-cols-3 justify-between w-full big:px-[96px] medium:px-[96px] px-[16px] gap-[54px] mt-[28px] medium:mt-[38px]">
+      <div className="big:grid grid-cols-3 justify-between w-full big:px-[96px] medium:px-[96px] px-[16px] gap-[54px] mt-[28px] medium:mt-[38px] z-10">
         <div className={boxStyle}>
           <div className="flex flex-col items-center gap-5">
             <h2 className="text-[24px] medium:text-[32px] text-[#6EC3DE] font-semibold">
@@ -78,6 +79,9 @@ const Member = () => {
           </button>
         </div>
       </div>
+      {/* <div className="absolute w-[270px] h-[155px] z-0 left-[-40px] top-[2400px]">
+        <img src={Cheese}></img>
+      </div> */}
     </div>
   );
 };

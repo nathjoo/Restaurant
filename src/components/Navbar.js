@@ -1,6 +1,6 @@
-import logo from "../assets/Tasty Good.png";
-import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import logo from '../assets/Tasty Good.png';
+import React, { useState } from 'react';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   const textStyleNavbar =
-    "p-4 hover:bg-slate-400 hover:text-white rounded-lg text-[20px] font-normal";
+    'p-4 hover:bg-slate-400 hover:text-white rounded-lg text-[20px] font-normal';
 
   return (
-    <div className="flex justify-between items-center shadow-lg h-[64px] medium:h-[64px] big:h-24 max-w-[1440px] mx-auto px-[16px] medium:px-[96px] bg-blue w-full fixed bg-white mt-0 z-10">
+    <div className="flex justify-between items-center shadow-lg h-[64px] medium:h-[64px] big:h-24 max-w-[1440px] mx-auto px-[16px] medium:px-[96px] bg-blue w-full fixed bg-white mt-0 z-20">
       <div className="flex items-center w-[120px] h-[40px] pt-1 medium:w-[164px] medium:h-[32px]">
         <img src={logo} />
       </div>
@@ -43,8 +43,8 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[80%] medium:w-[45%] h-full shadow-2xl bg-white ease-in-out duration-500 big:left-[-100%]"
-            : "fixed left-[-100%]"
+            ? 'fixed left-0 top-0 w-[80%] medium:w-[45%] h-full shadow-2xl bg-white ease-in-out duration-500 big:left-[-100%]'
+            : 'fixed left-[-100%]'
         }
       >
         <div className="w-[210px] big:h-[40px] pt-1 mb-4 medium:w-[164px] medium:h-[32px]">
